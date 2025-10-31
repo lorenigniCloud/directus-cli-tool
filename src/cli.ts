@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import { Command } from 'commander';
+import { DirectusCLI } from '@/index.js';
 import chalk from 'chalk';
-import { DirectusCLI } from './index.js';
 
 const program = new Command();
 

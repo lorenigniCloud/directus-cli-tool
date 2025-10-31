@@ -1,5 +1,5 @@
-import { DirectusAPI } from '../api/directus.js';
-import { Logger } from './logger.js';
+import { DirectusAPI } from '@/api/directus.js';
+import { Logger } from '@/utils/logger.js';
 
 export class AuthManager {
   private api: DirectusAPI;

@@ -1,5 +1,6 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
-import { Logger } from '../utils/logger.js';
+
+import { Logger } from '@/utils/logger.js';
 
 export class DirectusAPI {
   private client: AxiosInstance | null = null;

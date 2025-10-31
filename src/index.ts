@@ -1,11 +1,11 @@
-import inquirer from 'inquirer';
-import chalk from 'chalk';
-import ora from 'ora';
+import { AuthManager } from '@/utils/auth.js';
+import { ConfigManager } from '@/utils/config.js';
+import { DirectusAPI } from '@/api/directus.js';
+import { Logger } from '@/utils/logger.js';
 import boxen from 'boxen';
-import { DirectusAPI } from './api/directus.js';
-import { Logger } from './utils/logger.js';
-import { ConfigManager } from './utils/config.js';
-import { AuthManager } from './utils/auth.js';
+import chalk from 'chalk';
+import inquirer from 'inquirer';
+import ora from 'ora';
 
 export class DirectusCLI {
   private api: DirectusAPI;
