@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 
-import { DirectusAPI } from '@/api/directus.js';
+import { DirectusAPI } from '../src/api/directus.js';
 
 describe('DirectusAPI', () => {
   let api: DirectusAPI;
